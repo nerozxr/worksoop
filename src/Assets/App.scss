@@ -1,0 +1,46 @@
+.container {
+
+    .navbar{
+        width: 100%;
+        background-color: blue;
+        background: url('./sunrise-nature-minimalist-horizon-b466.jpg');
+        padding: 2rem;
+        margin: 3rem;
+        text-align: center;
+        height: 30rem;
+        width: 20rem;
+    }
+    .Section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    .card{
+        background-color: green;
+        padding: 2rem;
+    }
+
+    .Section-body-3{
+        background-color: red;
+        padding: 2rem;
+    }
+    .Section-body-1{
+        background-color: blue;
+        padding: 2rem;
+    }
+}
+    .Body{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+        .Body-Anak{
+            background-color: pink;
+            width: 15rem;
+            height: 20rem;
+        }
+        .Body-3{
+
+        }
+    }
+    
+}
